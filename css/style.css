@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
 }
 
 .custom-nav .navbar-brand.logo img {
-    height: 28px;
+    height: auto;
 }
 /* menu */
 .section {
