@@ -85,7 +85,7 @@
                                     <br>
                                     <a onclick="navigate(19.4305388,-99.2073153)" >Abrir mapa</a>
                                     <br>
-                                     <a href="https://maps.app.goo.gl/cDsQiHjAx4cyVz6r6" target="_blank">Click here for map</a>
+                                    <a onclick="mapsSelector()" target="_blank">Click here for map</a>
                                     <br><br><br>
                                 </div>
                             </div>
@@ -600,7 +600,18 @@
       window.open('http://maps.google.com?daddr=' + lat + ',' + lng + '&amp;ll=');
     }
   }
+          
+  function mapsSelector() {
+    if /* if we're on iOS, open in Apple Maps */
+        ((navigator.platform.indexOf("iPhone") != -1) || 
+         (navigator.platform.indexOf("iPad") != -1) || 
+         (navigator.platform.indexOf("iPod") != -1))  
+        window.open("https://maps.apple.com/?address=Calle%20Campos%20El%C3%ADseos%20468,%20Lomas%20de%20Chapultepec%20III%20Secci%C3%B3n,%2011010%20Ciudad%20de%20M%C3%A9xico,%20DF,%20M%C3%A9xico&auid=6887842792751225529&ll=19.430509,-99.205137&lsp=9902&q=Troquer&_ext=ChkKBQgEEKUBCgQIBRADCgQIBhAWCgQIChAAEiYpkE2oeA9tM0AxyWcpAG/NWMA5jPjzMFxvM0BBV3GO7tLMWMBQBA%3D%3D&t=m");
+    else /* else use Google */
+        window.open("https://maps.app.goo.gl/cDsQiHjAx4cyVz6r6");
+}
       </script>
+    
     <script>
         $(window).scroll(function() {
             if ($("#menu").offset().top > 56) {
