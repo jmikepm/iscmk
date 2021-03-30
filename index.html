@@ -1,626 +1,321 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarocho Dev - Web Developer</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="icon" type="image/png" href="img/icon-jmp.ico" />
-    <!-- Materialdesign icons Css -->
-    <link rel="stylesheet" href="css/materialdesignicons.min.css">
-
-    <!-- Mobirise icons Css -->
-    <link rel="stylesheet" href="css/mobiriseicons.css">
-    <!-- Animate Css -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <title>ISCMK WebDeveloper</title>
-    
- 
 </head>
-
 <body>
-    <!-- <div class="menu"> -->
-    <!-- START NAVBAR -->
-    <nav id="menu" class="navbar navbar-expand-lg fixed-top custom-nav sticky">
-        <div class="container">
-            <!-- LOGO -->
-            <a class="navbar-brand logo" href="index.html">
-                <img src="img/logomk2.png" alt="" class="img-fluid logo-light">
-                <img src="img/logomk.png" alt="" class="img-fluid logo-dark">
-            </a>
+    <div class="menu">
+        <header>
+            <div class="logo">
+                <div class="img">
+                    <img src="img/logomk2.png" alt="" class="img-fluid logo-light">
+                    <!--img src="img/logomk.png" alt="" class="img-fluid logo-dark"-->
+                </div>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="mdi mdi-menu"></i>
-                    </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a id="amenu" href="#home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="amenu" href="#about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="amenu" href="#education" class="nav-link">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="amenu" href="#work" class="nav-link">Work</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a id="amenu" href="#blog" class="nav-link">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="amenu" href="#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- END NAVBAR -->
-    <!-- </div> -->
-    <section class="home section h-100vh" id="home">
-        <div class="img_home">
-        </div>
-        <div class="home-table">
-            <div class="home-table-center">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="text-white text-center">
-                                <h4>Hello &amp; Welcome</h4>
-                                <h1 class="header_title mb-0 mt-3">I Am <span class="simple-text-rotate font-weight-bold" style="opacity: 0.635874;">A Developer.</span></h1>
-                                <ul class="social_home list-unstyled text-center pt-4">
-                                    <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/imikepena"><i class="mdi mdi-facebook"></i></a></li>
-                                    <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/jose-miguel-peña-971922a0/"><i class="mdi mdi-linkedin"></i></a></li>
-                                    <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/imikepena/"><i class="mdi mdi-instagram"></i></a></li>
-                                    <li class="list-inline-item"><a target="_blank" href="https://twitter.com/imikepena"><i class="mdi mdi-twitter"></i></a></li>
-                                </ul>
-                                <div class="header_btn">
-                                    <a href="#" class="btn btn-outline-custom btn-rounded mt-4">Download CV</a>
-                                    <br>
-                                    <a onclick="navigate(19.4305388,-99.2073153)" >Abrir mapa</a>
-                                    <br>
-                                    <a onclick="mapsSelector()" target="_blank">Click here for map</a>
-                                    <br><br><br>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="icon-menu">
+                    <span id="icon-menu">
+                        <i class="fas fa-bars"></i>
+                    </span>
                 </div>
             </div>
-        </div>
-
-        <!--div class="scroll_down">
-            <a href="#about" class="scroll">
-                <i class="mbri-arrow-down text-white"></i>
-            </a>
-        </div-->
-    </section>
-    <section class="section" id="about">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="text-center mx-auto section-main-title">
-                        <h2><span class="font-weight-bold">About </span>Me</h2>
-                        <div class="main-title-border">
-                            <i class="mdi mdi-asterisk"></i>
-                        </div>
-                        <p class="text-muted mx-auto mt-2">De origen veracruzano soy un desarrollador web apasionado por las tecnologías. Los retos, adquirir conocimientos, el auto aprendizaje son de las cosas que más me gustan.</p>
-                        <p class="text-muted mx-auto mt-2">Aplicar mis conocimientos en tecnologías y sistemas de información para dar solución a las necesidades y retos que se presentan. Contribuir de manera activa y estar en continuo desarrollo empresarial, profesional y personal.</p>
-                        <p class="text-muted mx-auto mt-2">Me considero una persona autodidacta, responsable con sus actividades laborales</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg-12">
-                    <div>
-                        <!--  <img src="img/sign.png" alt="" class="img-fluid mx-auto d-block"> -->
-                    </div>
-                    <div class="text-center about-detail mx-auto mt-5">
-                        <h3 class="mb-3">Hello! <span class="font-weight-bold text-custom">I'm Mike Peña.</span></h3>
-                        <ul class="mb-0 list-inline text-center about-work">
-                            <li class="list-inline-item mr-0 text-muted">Desarrollo Web /</li>
-                            <li class="list-inline-item mr-0 text-muted">Fotografía Hobby</li>
-                        </ul>
-                        <p class="text-muted mt-3">Autodicacta, me gustan los retos personales, me encanta adquirir nuevos conocimientos para poder aportar en el campo laboral donde me encuentre.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-lg-6">
-                    <div class="progress-bars skill-custom">
-                        <div class="clearfix">
-                            <div class="text-dark font-weight-bold float-left">Development</div>
-                        </div>
-                        <div class="clearfix">
-                            <div class="text-dark font-weight-bold float-left">PHP</div>
-                        </div>
-                        <div class="clearfix">
-                            <div class="text-dark font-weight-bold float-left">Laravel</div>
-                        </div>
-                        <div class="clearfix">
-                            <div class="text-dark font-weight-bold float-left">MySql / SQL</div>
-                        </div>
-                        <div class="clearfix">
-                            <div class="text-dark font-weight-bold float-left">Yii Framework</div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="progress-bars skill-custom">
-                        <div class="clearfix">
-                            <div class="text-dark font-weight-bold float-left">Html</div>
-                        </div>
-                        <div class="clearfix">
-                            <div class="text-dark font-weight-bold float-left">JavaScript</div>
-                        </div>
-                        <div class="clearfix">
-                            <div class="text-dark font-weight-bold float-left">Css</div>
-                        </div>
-                        <div class="clearfix">
-                            <div class="text-dark font-weight-bold float-left">BootsTrap</div>
-                        </div>
-
-                    </div>
-                </div>
-                <p class="text-muted mt-3">Manejo de distribuciones Ubuntu, fedora. Manejo basico de photoshop.</p>
-            </div>
-        </div>
-    </section>
-    <section class="section" id="education">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="text-center mx-auto section-main-title">
-                        <h2><span class="font-weight-bold">Educación &amp; Experiencia</span></h2>
-                        <div class="main-title-border">
-                            <i class="mdi mdi-asterisk"></i>
-                        </div>
-                        <p class="text-muted mx-auto mt-2">Donde estudie y he trabajado o trabajo actualmente</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg-5">
-                    <div class="cv_edu_exp mt-3">
-                        <div class="cv_edu_exp_box mt-4">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2010 - 2015</div>
-                                    <div class="cb_edu_exp_detail">
-                                        <h4>Ingeniería en Sistemas Computacionales.</h4>
-                                        <p class="cv_desc mb-0">Instituto Tecnológico Superior de Huatusco (ITSH)</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cv_edu_exp_box mt-4">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2011 - 2012</div>
-                                    <div class="cb_edu_exp_detail">
-                                        <h4>Carrera Técnica en Informática y Diseño Gráfico.</h4>
-                                        <p class="cv_desc mb-0">Academia de Computación y Estudio Comerciales (ACEC).</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- <div class="cv_edu_exp_box mt-4">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2016 - 2018</div>
-                                        <div class="cb_edu_exp_detail">
-                                            <h4>UI/UX Designer</h4>
-                                            <p class="cv_desc mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-5 offset-lg-2">
-                    <div class="cv_edu_exp mt-3">
-                        <div class="cv_edu_exp_box mt-4">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2018 - Actualmente</div>
-                                    <div class="cb_edu_exp_detail">
-                                        <h4>Web Developer</h4>
-                                        <p class="cv_desc mb-0">INNOCEAN WORLDWIDE INC.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cv_edu_exp_box mt-4">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2016 - 2018</div>
-                                    <div class="cb_edu_exp_detail">
-                                        <h4>Web Developer</h4>
-                                        <p class="cv_desc mb-0">Ariadna Communications Group S.A. de C.V.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cv_edu_exp_box mt-4">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2015 - 2016</div>
-                                    <div class="cb_edu_exp_detail">
-                                        <h4>Mora Digital | MATRIXCONNECT SA DE CV, Sector (Privado).</h4>
-                                        <p class="cv_desc mb-0">Maquetador Web</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cv_edu_exp_box mt-4">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2011 - 2016</div>
-                                    <div class="cb_edu_exp_detail">
-                                        <h4>Centro Comunitario de Aprendizaje Presidio (CCA)</h4>
-                                        <p class="cv_desc mb-0">Sector Gubernamental | Docente y promotor</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section text-center" id="work">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="text-center mx-auto section-main-title">
-                        <h2>Our <span class="font-weight-bold">Work</span></h2>
-                        <div class="main-title-border">
-                            <i class="mdi mdi-asterisk"></i>
-                        </div>
-                        <p class="text-muted mx-auto mt-2">En construcción</p>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="row mt-4 pt-4">
-                    <ul class="col list-unstyled list-inline mb-0 text-uppercase work_menu" id="menu-filter">
-                        <li class="list-inline-item"><a class="active" data-filter="*">All</a></li>
-                        <li class="list-inline-item"><a class="" data-filter=".seo">Seo</a></li>
-                        <li class="list-inline-item"><a class="" data-filter=".webdesign">Webdesign</a></li>
-                        <li class="list-inline-item"><a class="" data-filter=".WORK">WORK</a></li>
-                        <li class="list-inline-item"><a class="" data-filter=".wordpress">Wordpress</a></li>
+            <div class="links">
+                <nav>
+                    <ul>
+                        <li class="item-link"><a href="#header-div" class="menu_active">Inicio</a></li>
+                        <li class="item-link"><a href="#about">Acerca de</a></li>
+                        <li class="item-link"><a href="#education">Educación</a></li>
+                        <li class="item-link"><a href="#experiencia">Experiencia</a></li>
+                        <li class="item-link"><a href="https://imikepena.medium.com/" target="_blank">Blog</a></li>
+                        <li class="item-link"><a href="#contact">Contacto</a></li>
                     </ul>
-                </div> -->
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div id="header-div">
+        <div class="text-content-header">
+            <h4>Hola!</h4>
+            <h1>Soy <span>un Web Developer.</span></h1>
+            <ul class="rss-icons">
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/imikepena">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/jose-miguel-peña-971922a0/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/imikepena/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="btn-cv">
+                <button type="button">Descargar CV</button>
+                <br><br><br>
+                <span>Contáctame</span>
+                <br><br>
+                <span><a class="contact-mail" href="mailto:jmiguelpm14@gmail.com?subject=Hola Miguel,%20quiero%20una&body=cotización%20Body%20Text">Envía un correo</a></span>
+                <br><br>
+                <span>O manda un <a class="contact-mail"
+                    href="https://api.whatsapp.com/send?phone=522731151621&text=Hola%2C%20necesito%20una%20cotizaci%C3%B3n" target="_blank">whatsapp</a></span>
+            </div>
         </div>
-        <!--  <div class="container">
-               <div class="row mt-5 work-filter" style="position: relative; height: 585px;">
-                   <div class="col-lg-4 work_item webdesign wordpress" style="position: absolute; left: 0px; top: 0px;">
-                       <a href="images/works/1.jpg" class="img-zoom">
-                           <div class="work_box">
-                               <div class="work_img">
-                                   <img src="images/works/1.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                               </div>
-                               <div class="work_detail">
-                                   <p class="mb-2">Category</p>
-                                   <h4 class="mb-0">Project Title</h4>
-                               </div>
-                           </div>
-                       </a>
-                   </div>
-           
-                   <div class="col-lg-4 work_item WORK webdesign seo" style="position: absolute; left: 380px; top: 0px;">
-                       <a href="images/works/2.jpg" class="img-zoom">
-                           <div class="work_box">
-                               <div class="work_img">
-                                   <img src="images/works/2.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                               </div>
-                               <div class="work_detail">
-                                   <p class="mb-2">Category</p>
-                                   <h4 class="mb-0">Project Title</h4>
-                               </div>
-                           </div>
-                       </a>
-                   </div>
-           
-                   <div class="col-lg-4 work_item seo wordpress" style="position: absolute; left: 760px; top: 0px;">
-                       <a href="images/works/3.jpg" class="img-zoom">
-                           <div class="work_box">
-                               <div class="work_img">
-                                   <img src="images/works/3.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                               </div>
-                               <div class="work_detail">
-                                   <p class="mb-2">Category</p>
-                                   <h4 class="mb-0">Project Title</h4>
-                               </div>
-                           </div>
-                       </a>
-                   </div>
-           
-                   <div class="col-lg-4 work_item wordpress WORK webdesign" style="position: absolute; left: 0px; top: 292px;">
-                       <a href="images/works/4.jpg" class="img-zoom">
-                           <div class="work_box">
-                               <div class="work_img">
-                                   <img src="images/works/4.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                               </div>
-                               <div class="work_detail">
-                                   <p class="mb-2">Category</p>
-                                   <h4 class="mb-0">Project Title</h4>
-                               </div>
-                           </div>
-                       </a>
-                   </div>
-           
-                   <div class="col-lg-4 work_item seo webdesign" style="position: absolute; left: 380px; top: 292px;">
-                       <a href="images/works/5.jpg" class="img-zoom">
-                           <div class="work_box">
-                               <div class="work_img">
-                                   <img src="images/works/5.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                               </div>
-                               <div class="work_detail">
-                                   <p class="mb-2">Category</p>
-                                   <h4 class="mb-0">Project Title</h4>
-                               </div>
-                           </div>
-                       </a>
-                   </div>
-           
-                   <div class="col-lg-4 work_item devlopment webdesign" style="position: absolute; left: 760px; top: 292px;">
-                       <a href="images/works/6.jpg" class="img-zoom">
-                           <div class="work_box">
-                               <div class="work_img">
-                                   <img src="images/works/6.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-                               </div>
-                               <div class="work_detail">
-                                   <p class="mb-2">Category</p>
-                                   <h4 class="mb-0">Project Title</h4>
-                               </div>
-                           </div>
-                       </a>
-                   </div>
-               </div>
-           </div> -->
-    </section>
+    </div>
 
-    <section class="section text-center" id="blog">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 mb-3">
-                    <div class="text-center mx-auto section-main-title">
-                        <h2><span class="font-weight-bold">BLOG</span></h2>
-                        <div class="main-title-border">
-                            <i class="mdi mdi-asterisk"></i>
+    <section id="data-container">
+        <div class="info-sections">
+            <div id="about" class="container-info">
+                <div class="info-about">
+                    <h4>Acerca de Mi</h4>
+                    <div class="info">
+                        <div class="avatar">
+                            <img src="img/Profile.png" alt="">
                         </div>
+                        <div class="texto">
+                            <p>De origen veracruzano, graduado de Ingeniería en Sistemas Computacionales del Tecnológico Superior de Huatusco. Soy un
+                            desarrollador web apasionado por aprender nuevas tecnologías. Los retos, adquirir siempre nuevos conocimientos, el auto aprendizaje,
+                            entre otras cosas más, es de lo que más me gusta.</p>
+                            <p>Siempre me empeño en aplicar mis conocimientos en tecnologías y sistemas de información para dar solución a las
+                            necesidades y retos que se presentan. Contribuir de manera activa y estar en continuo desarrollo empresarial,
+                            profesional y personal.</p>
+                            </p>Me considero una persona autodidacta, responsable con sus actividades laborales.</p>
 
+                        </div>
                     </div>
                 </div>
             </div>
 
-        </div>
-
-        <!-- tipo pinterst -->
-        <div class="card-columns">
-            <div class="card">
-                <a href="https://iscmk.blogspot.com/2019/06/por-que-los-desarrolladoresweb-deberian.html" target="_blank">
-                    <div class="card-body">
-                        <h5 class="card-title">POR QUÉ LOS DESARROLLADORES WEB DEBERÍAN APRENDER MARKETING DIGITAL</h5>
-                        <p class="card-text">Marketing Digital</p>
-                    </div>
-                    <img class="card-img-bottom" src="img/blog/DevWebMarketingDigital.jpg" alt="Desarrollador Web Marketing Digital">
-                </a>
-            </div>
-            <div class="card">
-                <a href="https://iscmk.blogspot.com/2019/06/formulario-php-con-mysql-materialize.html" target="_blank">
-                    <div class="card-body">
-                        <h5 class="card-title">Formulario PHP con MySQL - Materialize</h5>
-                        <p class="card-text">PHP MySQL CSS HTML</p>
-                    </div>
-                    <img class="card-img-bottom" src="img/blog/entrada-php-mysql.jpg" alt="Card image cap">
-                </a>
-            </div>
-            <div class="card">
-                <a href="https://iscmk.blogspot.com/2019/04/tokenmismatchexception-in.html" target="_blank">
-                    <div class="card-body">
-                        <h5 class="card-title">TokenMismatchException in VerifyCsrfToken.php line 67:</h5>
-                        <p class="card-text">PHP Laravel</p>
-
-                    </div>
-                    <img class="card-img-bottom" src="img/blog/entrada-token-laravel.jpg" alt="Card image cap">
-                </a>
-            </div>
-            <div class="card">
-                <a href="https://iscmk.blogspot.com/2018/06/plugins-que-todo-desarrollador-web-debe.html" target="_blank">
-                    <img class="card-img-top" src="img/blog/entrada-plugin-sublime.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Plugins que todo desarrollador web debe tener en Sublime Text</h5>
-                        <p class="card-text">HTMl CSS SublimeText</p>
-
-                    </div>
-                </a>
-            </div>
-
-            <div class="card">
-                <a href="https://iscmk.blogspot.com/2016/06/android-studio-error-de_17.html" target="_blank">
-                    <img class="card-img-top" src="img/blog/entrada-android.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Android Studio Error de INSTALL:FAILED_OLDER_SDK</h5>
-                        <p class="card-text">Mobile Android</p>
-                    </div>
-                </a>
-            </div>
-
-        </div>
-
-        <!-- tipo pinterst -->
-
-    </section>
-
-    <section class="section " id="contact">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="text-center mx-auto section-main-title">
-                        <h2>Contact <span class="font-weight-bold">Me</span></h2>
-                        <div class="main-title-border">
-                            <i class="mdi mdi-asterisk"></i>
+            <div id="education" class="container-info">
+                <h4>Educación</h4>
+                <div class="info-education">
+                    <div class="uni">
+                        <div class="date">
+                            <span>2010-2016</span>
                         </div>
-                        <p class="text-muted mx-auto mt-2">Tu escribeme y ahí espare para tus dudas</p>
+                        <div class="title-uni">
+                            <p>Ingenieria en Sistemas Computacionales</p>
+                            <span>Instituto Tecnológico Superior de Huatusco (ITSH)</span>
+                        </div>
+                    </div>
+
+                    <div class="uni">
+                        <div class="date">
+                            <span>2010-2012</span>
+                        </div>
+                        <div class="title-uni">
+                            <p>Carrera Técnica En Informática Y Diseño Gráfico.</p>
+                            <span>Academia de Computación y Estudio Comerciales (ACEC).</span>
+                        </div>
+                    </div>
+                    <div class="another-education">
+                        <p>Realizado cursos en linea utilizando plataformas como Udemy, Platzy, entre otros, de temas como <u>JavaScript</u>, <u>React</u>, <u>Angular</u>, <u>Laravel</u>, <u>Yii Framework</u>, <u>CSS</u>, <u>LESS</u>, <u>SASS</u>, entre otros.</p>
                     </div>
                 </div>
             </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg-4">
-                    <div class="text-center mt-4">
-                        <div>
-                            <i class="mbri-mobile2 text-custom h2"></i>
-                        </div>
-                        <div class="mt-2">
-                            <p class="mb-0 font-weight-bold">Call Us On</p>
-                            <p class="text-muted">+273 115 1621</p>
-                        </div>
+
+            <div id="experiencia" class="container-info">
+                <h4>Experiencia</h4>
+                <div class="experiencia">
+
+                    <div class="cards-experience">
+                        <span class="title-experience">Front-End Developer</span>
+                        <span class="company"><a target="_blank" href="https://troquer.com.mx/"><i class="fas fa-link"></i> Troquer</a> <span class="year">2019 - Actualmente</span></span>
+                        <span class="arrow-mob"></span>
+                        <span class="description">
+                            Desarrollo del frontend del ecommerce en Magento. <br>
+                            Modificación de temas personalizados en Magento, cumpliendo con los requerimientos de diseño solicitados para el usuario
+                            final. Todo esto adaptable a diferentes dispositivos.
+                            Manejo de CMS de Magento, creación de bloques, LP, widgets
+                            Usando tecnologías como: CSS, CSS 3, LESS, HTML and HTML 5, XML, JavaScript, PHTML, PHP, Responsive Web Design (RWD)
+                            <ul>
+                                <li>Desarrollo de mailings adaptables a móviles.</li>
+                            </ul>
+                        </span>
                     </div>
-                    <div class="text-center mt-4">
-                        <div>
-                            <i class="mbri-letter text-custom h2"></i>
-                        </div>
-                        <div class="mt-2">
-                            <p class="mb-0 font-weight-bold">Email Us At</p>
-                            <p class="text-muted">jmiguelpm14@gmail.com</p>
-                        </div>
+
+                    <div class="cards-experience">
+                        <span class="title-experience">Web Developer</span>
+                        <span class="company"><a href="https://innoceanmexico.com/" target="_blank"><i class="fas fa-link"></i> INNOCEAN Worldwide</a>  <span class="year">2018 - 2019</span></span>
+                        <span class="arrow-mob"></span>
+                        <span class="description">
+                            Desarrollo de formularios, maquetación de
+                            landing, newsletters utilizando las tecnologías Laravel
+                            (PHP), HTML 5, CSS 3, Bootstrap y Jquery, adaptados a móviles.
+                            <br>
+                            Trabajando para marcas como <strong>KIA México</strong>
+                            <ul>
+                                <li>Desarrollo de mailings adaptables a móviles.</li>
+                            </ul>
+                        </span>
                     </div>
-                    <div class="text-center mt-4">
-                        <div>
-                            <i class="mbri-pin text-custom h2"></i>
-                        </div>
-                        <div class="mt-2">
-                            <p class="mb-0 font-weight-bold">No tengo oficina</p>
-                            <p class="text-muted">Mi oficina es la compu</p>
-                        </div>
+
+                    <div class="cards-experience">
+                        <span class="title-experience">Web Developer</span>
+                        <span class="company"><a href="https://www.ariadnacommunicationsgroup.com/" target="_blank"><i class="fas fa-link"></i> Ariadna Communications Group</a> <span class="year">2016 - 2018</span></span>
+                        <span class="arrow-mob"></span>
+                        <span class="description">
+                            Desarrollo y mantenimiento de sistemas web, maquetación de
+                            landing, newsletters utilizando las tecnlogías Yii Framework
+                            (PHP), HTML 5, CSS 3, Bootstrap y Jquery, adaptadps a moviles.
+                            Modelación y desarrollo de Bases de Datos manejo de store
+                            procedures.
+                            <br>
+                            Trabajando para marcas como <strong>NISSAN México</strong>
+                            <ul>
+                                <li>Integración de analytics en los sistemas web.</li>
+                                <li>desarrollo de mailings adaptables a moviles y así mismo envío
+                                masivo de email para hacer comunicación de las diversas
+                                campañas mediante plataforma de mailchimp.</li>
+                            </ul>
+                        </span>
+                    </div>
+
+                    <div class="cards-experience">
+                        <span class="title-experience">Docente</span>
+                        <span class="company"><a href="http://www.centroscomunitariosdeaprendizaje.org.mx/" target="_blank"><i class="fas fa-link"></i> CCA</a> <span class="year">2011 - 2016</span></span>
+                        <span class="arrow-mob"></span>
+                        <span class="description">
+                            Maquetación de sitios web responsivos
+                            <ul>
+                                <li>Centro educativo trabaja en coordinación con el H.
+                                Ayuntamiento, SEDESOL y Tec de Mty.</li>
+                                <li>Promover cursos que se ofrecen en el CCA avalados por el
+                                Tecnológico de Monterrey, en coordinación son la SEDESOL.</li>
+                                <li>Supervisión de las actividades de los alumnos, realizar
+                                publicidad de cursos.</li>
+                                <li>Impartir cursos que se ofrecen .</li>
+                                <li>Mantenimiento y configuración de la red interna así mismo
+                                mantenimiento de las PC, instalación de software.</li>
+                            </ul>
+                        </span>
+                    </div>
+
+                    <div class="cards-experience">
+                        <span class="title-experience">Maquetador Web</span>
+                        <span class="company">Mora Digital <span class="year">2015 - 2016</span></span>
+                        <span class="arrow-mob"></span>
+                        <span class="description">
+                            Maquetación de sitios web responsivos
+                            <ul>
+                                <li>Apoyando en la creación de un gestor de contenidos para
+                                un sitio web</li>
+                                <li>Utilizando wordpress, YII Framework, HTML 5, CSS 3, JS.</li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
-                <div class="col-lg-8">
-                    <div class="contact_form">
-                        <form>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-group mt-2">
-                                        <label for="name" class="font-weight-bold">Name</label>
-                                        <input name="name" id="name" type="text" class="form-control" placeholder="Your name..." required="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group mt-2">
-                                        <label for="email" class="font-weight-bold">Email address</label>
-                                        <input name="email" id="email" type="email" class="form-control" placeholder="Your email..." required="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group mt-2">
-                                        <label for="subject" class="font-weight-bold">Subject</label>
-                                        <input type="text" class="form-control" id="subject" placeholder="Your Subject.." required="">
-                                    </div>
-                                </div>
+                <h4>Skills</h4>
+                <div class="data-skill">
+                    <div class="text">
+                        <p>A largo de carrera laboral he utilizado estas tecnologías en distintos proyectos</p>
+                        <br>
+                        <p>Tanto tecnologías para el desarrollo en backend y frontend como herramientas de comunicación de envío de correo masivo</p>
+                        <br>
+                        <p>Al igual el uso de herramientas para la gestión de proyectos, uso de la metodología SCRUM.</p>
+                    </div>
+                    <div id="info-skills">
+                    </div>
+                </div>
+            </div>
+
+            <div id="portfolio" class="container-info">
+                <h4>Portafolio</h4>
+
+                <div class="content-cards-work">
+                    <div class="container">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src="img/proyects/Euforia.png" alt="">
                             </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group mt-2">
-                                        <label for="comments" class="font-weight-bold">Message</label>
-                                        <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..." required=""></textarea>
-                                    </div>
-                                </div>
+                            <div class="content">
+                                <h2>Euforia Nissan</h2>
+                                <p>Landing Para evento Euforia Nissan</p>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-12 text-right">
-                                    <input type="submit" class="btn btn-custom" value="Send Message">
-                                </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src="img/proyects/MiNissanApp.png" alt="">
                             </div>
-                        </form>
+                            <div class="content">
+                                <h2>MiNissan App</h2>
+                                <p>Landing Programa Experiencias MiNissanAPP</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src="img/proyects/SorteoNissan.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h2>Sorteo Nissan 370z</h2>
+                                <p>Campaña de Sorteo Nissan 370Z para los clientes que no decidieron participar enviando
+                                    comunicación</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src="img/proyects/Versa.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h2>Si tu Versa hablara</h2>
+                                <p>Landing utilizado en la campaña de versa</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src="img/proyects/Newsletter.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h2>Newsletter</h2>
+                                <p>Newsletter adaptables a diferentes dispositivos y que sean mas amigables con el usuario</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src="img/proyects/Lacoste.png" alt="">
+                            </div>
+                            <div class="content">
+                                <h2>Lacoste Total Look</h2>
+                                <p>Campaña para Lacoste donde los clientes registraban sus ticket’s de compra</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h2>Descarga el portafolio completo.</h2>
+                            <p><a class="link_portfolio"
+                                    href="https://drive.google.com/file/d/1b1YrlqohnjSKFUFY0B9j-Uw4ODpKiyNQ/view?usp=sharing"
+                                    target="_blank">Descargar</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
-    <section class="bg-light">
-        <div class="container">
-            <div class="row pt-4 pb-4">
-                <div class="col-lg-12">
-                    <div class="float-left float_none mt-2 mb-2">
-                        <p class="copy-rights text-muted mb-0">©COPYRIGHT. DERECHOS DE AUTOR 2019 ISCMK. TODOS LOS DERECHOS RESERVADOS.</p>
-                    </div>
-                    <div class="float-right float_none mt-2 mb-2">
-                        <ul class="list-inline fot_social mb-0">
-                            <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/jmikepm" class="social-icon text-muted"><i class="mdi mdi-facebook"></i></a></li>
-                            <li class="list-inline-item"><a target="_blank" href="https://twitter.com/jmikepm" class="social-icon text-muted"><i class="mdi mdi-twitter"></i></a></li>
-                            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/jose-miguel-peña-971922a0/" class="social-icon text-muted"><i class="mdi mdi-linkedin"></i></a></li>
-                            <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/jmikepm/" class="social-icon text-muted"><i class="mdi mdi-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <footer>
+        <p class="copy-rights text-muted mb-0">©Copyright. derechos de autor 2019 ISCMK. Todos los derechos reservados.</p>
+    </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      <script>
-           function navigate(lat, lng) {
-    // If it's an iPhone..
-    if ((navigator.platform.indexOf("iPhone") !== -1) || (navigator.platform.indexOf("iPod") !== -1)) {
-      function iOSversion() {
-        if (/iP(hone|od|ad)/.test(navigator.platform)) {
-          // supports iOS 2.0 and later
-          var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
-          return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
-        }
-      }
-      var ver = iOSversion() || [0];
-
-      var protocol = 'http://';
-      if (ver[0] >= 6) {
-        protocol = 'maps://';
-      }
-      window.location = protocol + 'maps.apple.com/maps?daddr=' + lat + ',' + lng + '&amp;ll=';
-    }
-    else {
-      window.open('http://maps.google.com?daddr=' + lat + ',' + lng + '&amp;ll=');
-    }
-  }
-          
-  function mapsSelector() {
-    if /* if we're on iOS, open in Apple Maps */
-        ((navigator.platform.indexOf("iPhone") != -1) || 
-         (navigator.platform.indexOf("iPad") != -1) || 
-         (navigator.platform.indexOf("iPod") != -1))  
-        window.open("https://maps.apple.com/?address=Calle%20Campos%20El%C3%ADseos%20468,%20Lomas%20de%20Chapultepec%20III%20Secci%C3%B3n,%2011010%20Ciudad%20de%20M%C3%A9xico,%20DF,%20M%C3%A9xico&auid=6887842792751225529&ll=19.430509,-99.205137&lsp=9902&q=Troquer&_ext=ChkKBQgEEKUBCgQIBRADCgQIBhAWCgQIChAAEiYpkE2oeA9tM0AxyWcpAG/NWMA5jPjzMFxvM0BBV3GO7tLMWMBQBA%3D%3D&t=m");
-    else /* else use Google */
-        window.open("https://maps.app.goo.gl/cDsQiHjAx4cyVz6r6");
-}
-      </script>
-    
-    <script>
-        $(window).scroll(function() {
-            if ($("#menu").offset().top > 56) {
-                $("#menu").addClass("bg-dark");
-            } else {
-                $("#menu").removeClass("bg-dark");
-            }
-        });
-    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/jquery.svg3dtagcloud.min.js" charset="utf-8"></script>
 </body>
-
 </html>
