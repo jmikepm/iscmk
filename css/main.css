@@ -5,14 +5,17 @@
   --colorbg: #020125;
   --colorsticky: #3961d2;
 }
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700');
+//@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;1,100;1,800&display=swap');
+
 body{
   background: var(--colorwhite);
 }
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+
+  font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 h4{
@@ -23,6 +26,10 @@ h4::after, h4::before{
   position: relative;
   top: -2px;
   padding: 0 10px;
+}
+
+.select-opc{
+  left: -100% !important;
 }
 .menu header{
   display: flex;
@@ -101,7 +108,7 @@ div#header-div {
     color: var(--colorwhite);
     padding: 0 15px;
 }
-.text-content-header h4{
+.text-content-header h2{
   font-size: 55px;
 }
 .text-content-header h1{
@@ -146,7 +153,7 @@ ul.rss-icons li a i:hover{
 }
 
 .contact-mail{
-  color: var(--colorwhite);
+  color: var(--colorblack);
 }
 
 .btn-cv button{
@@ -388,21 +395,51 @@ a.link_portfolio{
   border: 1px solid var(--colorwhite);
   border-radius: 3px;
   text-decoration: none;
-  background-color: var(--colorbg);
-  color: var(--colorwhite);
+  background-color: var(--colorwhite);
+  color: var(--colorblack);
   display: block;
   padding: 5px;
   margin: 10px auto 20px;
-  width: 80%;
+  width: 65%;
   text-align: center;
+}
+
+  a.link_portfolio:hover{
+  background: rgba(0, 0, 0, 0.3);
+  color: var(--colorwhite);
 }
 
 /* CARDS*/
 
+.form-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  height: 30vh;
+}
+.form-contact .text-contact{
+  width: 50%;
+}
+.form-contact .buttons{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.form-contact .buttons .email, .whatsapp{
+  font-size: 40px;
+  cursor: pointer;
+}
+
 footer{
   text-align: center;
-  color: rgba(0,0,0,0.4);
+  color: var(--colorblack);
   padding: 20px 0;
+  background: var(--colorwhite);
 }
 
 @media (max-width: 900px){
@@ -462,6 +499,7 @@ footer{
   /*About*/
   #about .info-about .info{
     flex-direction: column;
+    margin-top: 15px;
   }
   #about .info-about .info .avatar{
     order: 1;
@@ -470,10 +508,17 @@ footer{
   #about .info-about .info .texto{
     order: 2;
     width: 100%;
+    text-align: center;
+  }
+  .data-skill .text{
+    text-align: center;
   }
 }
 
 @media (max-width: 600px){
+  .container-info{
+      padding: 10px;
+  }
   span.arrow-mob {
     display: block;
   }
@@ -518,6 +563,21 @@ footer{
   .container{
     padding: 0;
   }
+
+
+  .form-contact{
+    flex-direction: column;
+  }
+  .form-contact .text-contact, .buttons{
+    width: 100%;
+  }
+  .form-contact .buttons .email, .whatsapp {
+    width: 100%;
+  }
+  .form-contact .buttons {
+    margin-top: 15px;
+  }
+
 }
 
 @media (min-width: 800px) {

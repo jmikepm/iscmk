@@ -1,5 +1,5 @@
 $(".icon-menu").click(function(){
-  console.log("Alert injs");
+  $('.links nav').removeClass('select-opc');
   if($(".menu").hasClass("active")){
     $('.menu').removeClass('active');
   }else{
@@ -9,6 +9,7 @@ $(".icon-menu").click(function(){
 
 $('.item-link a').each(function(){
   $(this).on("click", function(){
+    $('.links nav').addClass('select-opc');
     $('.item-link a').removeClass('menu_active');
     $(this).addClass('menu_active');
 
